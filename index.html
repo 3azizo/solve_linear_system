@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Solve Linear System</title>
+  </head>
+  <body>
+    <button class="show-modal e2s">2 Equations</button>
+    <button class="show-modal e3s">3 Equations</button>
+    <button class="show-modal e4s">4 Equations</button>
+    <div class="modal hidden e2">
+      <button class="close-modal">&times;</button>
+      <h1>2 Eguations</h1>
+      <table>
+        <caption>
+          لو لم تدخل عنصر هيكون بصفر
+        </caption>
+        <tr>
+          <td></td>
+          <td>
+            <span>x <sub>1</sub></span>
+          </td>
+          <td>
+            <span>x<sub>2</sub></span>
+          </td>
+          <td>
+            <span>b</span>
+          </td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td><span>q1</span></td>
+          <td><input type="number" .class="inp2" id="a11" /></td>
+          <td><input type="number" .class="inp2" id="a12" /></td>
+          <td><input type="number" .class="inp2" id="b1" /></td>
+        </tr>
+        <tr>
+          <td><span> q2</span></td>
+          <td><input type="number" .class="inp2 " id="a21" /></td>
+          <td><input type="number" .class="inp2 " id="a22" /></td>
+          <td><input type="number" .class="inp2" id="b2" /></td>
+        </tr>
+      </table>
+      <button class="solve">Solve</button>
+    </div>
+    <div class="modal hidden e3">
+      <button class="close-modal">&times;</button>
+      <h1>3 Eguations</h1>
+      <table>
+        <caption>
+          لو لم تدخل عنصر هيكون بصفر
+        </caption>
+        <tr>
+          <td></td>
+          <td>
+            <span>x<sub>1</sub></span>
+          </td>
+          <td>
+            <span>x<sub>2</sub></span>
+          </td>
+          <td>
+            <span>x<sub>3</sub></span>
+          </td>
+          <td>
+            <span>b</span>
+          </td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td><span>q1</span></td>
+          <td><input type="number" .class="inp" id="y11" /></td>
+          <td><input type="number" .class="inp" id="y12" /></td>
+          <td><input type="number" .class="inp" id="y13" /></td>
+          <td><input type="number" .class="inp" id="z1" /></td>
+        </tr>
+        <tr>
+          <td><span> q2</span></td>
+          <td><input type="number" .class="inp" id="y21" /></td>
+          <td><input type="number" .class="inp" id="y22" /></td>
+          <td><input type="number" .class="inp" id="y23" /></td>
+          <td><input type="number" .class="inp" id="z2" /></td>
+        </tr>
+        <tr>
+          <td><span> q3</span></td>
+          <td><input type="number" .class="inp" id="y31" /></td>
+          <td><input type="number" .class="inp" id="y32" /></td>
+          <td><input type="number" .class="inp" id="y33" /></td>
+          <td><input type="number" .class="inp" id="z3" /></td>
+        </tr>
+      </table>
+      <button class="solve">Solve</button>
+    </div>
+    <div class="modal hidden e4">
+      <button class="close-modal">&times;</button>
+      <h1>4 Eguations</h1>
+      <table>
+        <caption>
+          لو لم تدخل عنصر هيكون بصفر
+        </caption>
+        <tr>
+          <td></td>
+          <td>
+            <span>x<sub>1</sub></span>
+          </td>
+          <td>
+            <span>x<sub>2</sub></span>
+          </td>
+          <td>
+            <span>x<sub>3</sub></span>
+          </td>
+
+          <td>
+            <span>x<sub>4</sub></span>
+          </td>
+          <td>
+            <span>b</span>
+          </td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td><span>q1</span></td>
+          <td><input type="number" .class="inp" id="x11" /></td>
+          <td><input type="number" .class="inp" id="x12" /></td>
+          <td><input type="number" .class="inp" id="x13" /></td>
+          <td><input type="number" .class="inp" id="x14" /></td>
+          <td><input type="number" .class="inp" id="c1" /></td>
+        </tr>
+        <tr>
+          <td><span> q2</span></td>
+          <td><input type="number" .class="inp" id="x21" /></td>
+          <td><input type="number" .class="inp" id="x22" /></td>
+          <td><input type="number" .class="inp" id="x23" /></td>
+          <td><input type="number" .class="inp" id="x24" /></td>
+          <td><input type="number" .class="inp" id="c2" /></td>
+        </tr>
+        <tr>
+          <td><span> q3</span></td>
+          <td><input type="number" .class="inp" id="x31" /></td>
+          <td><input type="number" .class="inp" id="x32" /></td>
+          <td><input type="number" .class="inp" id="x33" /></td>
+          <td><input type="number" .class="inp" id="x34" /></td>
+          <td><input type="number" .class="inp" id="c3" /></td>
+        </tr>
+        <tr>
+          <td><span> q4</span></td>
+          <td><input type="number" .class="inp" id="x41" /></td>
+          <td><input type="number" .class="inp" id="x42" /></td>
+          <td><input type="number" .class="inp" id="x43" /></td>
+          <td><input type="number" .class="inp" id="x44" /></td>
+          <td><input type="number" .class="inp" id="c4" /></td>
+        </tr>
+      </table>
+      <button class="solve">Solve</button>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="solveing hidden" id="contSolve"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
