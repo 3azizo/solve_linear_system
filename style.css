@@ -48,8 +48,6 @@ p {
   font-size: 1.8rem;
 }
 
-/* -------------------------- */
-/* CLASSES TO MAKE MODAL WORK */
 .hidden {
   display: none;
 }
@@ -59,7 +57,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  width: fit-content;
 
   background-color: white;
   padding: 6rem;
