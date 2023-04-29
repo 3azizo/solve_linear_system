@@ -141,7 +141,7 @@ function print_arry(arry) {
     let newSpan = document.createElement('span');
     newSpan.classList.add('span');
     newDiv2.appendChild(newSpan);
-    newSpan.innerHTML = 'x' + (i + 1) + '  =  ' + Math.trunc(x[i]);
+    newSpan.innerHTML = 'x' + (i + 1) + '  =  ' + x[i];
   }
 }
 
